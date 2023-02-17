@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+	<title>Tatooine - Boonta Eve Classic</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Veres Szabolcs">
+	<meta name="author-id" content="NY4KT5">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/jpg" href="icons/icon.jpg">
+	<script src="script/jscript.js"></script>
+	<style>
+		.offtopic{
+			width: 80%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+<div class="navigation">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#kezdolap">Kezdőlap</a></li>
+				<li class="vanAlmenuje">
+					<a href="#fogatok">Fogatok</a>
+					<ul class="almenu">
+						<li><a href="https://starwars.fandom.com/wiki/Aldar_Beedo%27s_Podracer" target="_blank">MARK IV Flat-Twin Turbojet</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Anakin_Skywalker%27s_Podracer/Legends" target="_blank">Radon-Ulzer 620C</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Boles_Roor%27s_Podracer" target="_blank">Quadrijet 4-Barrel 904E</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/KV9T9-B_Wasp" target="_blank">Keizar-Volvec KV9T9-B Wasp</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Vulptereen_327/Legends" target="_blank">Vulptereen 327</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Ebe_E._Endocott%27s_Podracer" target="_blank">JAK Racing J930 Dash-8</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Elan_Mak%27s_Podracer" target="_blank">Kurtob KRT 410-C</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/GPE-3130" target="_blank">Galactic Power Engineering GPE-3130</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/FG_8T8-Twin_Block2_Special" target="_blank">Farwan & Glott FG 8T8 Twin-Block 2 Special</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Ody_Mandrell%27s_Podracer" target="_blank">Exelbrok XL 5115</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Sebulba%27s_Podracer/Legends" target="_blank">Plug-F Mammoth</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Teemto_Pagalies%27_Podracer" target="_blank">IPG-X1131 Longtail</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Wan_Sandage%27s_Podracer" target="_blank">Elsinore-Cordova TurboDyne 99-U</a></li>
+					</ul>
+				</li>
+				<li class="vanAlmenuje">
+					<a href="#versenyzok">Versenyzők</a>
+					<ul class="almenu">
+						<li><a href="https://starwars.fandom.com/hu/wiki/Aldar_Beedo" target="_blank">Aldar Beedo</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Anakin_Skywalker" target="_blank">Anakin Skywalker</a></li>
+						<li><a href="https://starwars.fandom.com/wiki/Boles_Roor" target="_blank">Boler Roor</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Clegg_Holdfast" target="_blank">Clegg Holdfast</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Dud_Bolt" target="_blank">Dud Bolt</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Ebe_Endocott" target="_blank">Ebe Endocott</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Kam_Nale" target="_blank">Elan Mak</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Mawhonic" target="_blank">Mawhonic</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Neva_Kee" target="_blank">Neva Kee</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Ody_Mandrell" target="_blank">Ody Mandrell</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Sebulba" target="_blank">Sebulba</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Teemto_Pagalies" target="_blank">Teemto Pagalies</a></li>
+						<li><a href="https://starwars.fandom.com/hu/wiki/Wan_Sandage" target="_blank">Wan Sandage</a></li>
+					</ul>
+				</li>
+				<li><a href="#galeria" onclick="underConstruction()">Galéria</a></li>
+				<li><a href="#kapcsolat">Kapcsolat</a></li>
+				<div id="music">
+					<button id="mute" onclick="mute()"></button>
+					<button id="unMute" onclick="unMute()"></button>
+					<audio id="cantinaMusic" autoplay="true" loop="true">
+						<source src="sounds/cantina.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+				<div>
+					<form action="">
+						<input type="text" placeholder="Keresés..">
+						<button id="search"></button>
+					</form>
+				</div>
+				
+			</ul>
+		</nav>
+	</header>
+</div>
+<div class="content">		
+	<h1 id="kezdolap">Boonta Eve Classic verseny - Mos Espa Raceway, Tatooine bolygó</h1>
+
+	<h2>Tatooine</h2>
+	<img id="tatooine" src="pics/tatooine.jpg" alt="Tatooine">
+	<p>A Tatooine (magyar nevén Tatuin) egy durva, homokos dűnékkel borított bolygó. A Galaxis középpontjától 43 000 fényév távolságra, a Külső Peremen, 
+		az Arkanis szektorban helyezkedik el. A Tattoine a legbelső bolygó a Tatu rendszerben. A Tatu egy kettőscsillag-rendszer, 
+		a két csillag nem túl nagy távolságra kering egymástól, így a Tatooine-on szinte mindig két nap látható. </p>
+	<p>Sok helyi telepes farmokon él és gazdálkodik. Ők az ún. párafarmerek, akik a levegőből begyűjtött párából vizet állítanak elő.<br>
+	A Peremvidékre a Birodalom törvényei már nem hatnak ki, ezért a nagyobb űrkikötő-városokban (pl. Mos Esley és Mos Espa) mindenféle népség megfordul. 
+	Csempészek, bűnözők, fegyver- és emberkereskedők bonyolítják ügyes-bajos dolgaikat a helyi pubokban. A bolygó még ezeken kívül is rengeteg veszélyt rejt. 
+	Váratlan időpontokban lecsaphatnak kisebb-nagyobb homokviharok, az itt őslakos barbár buckalakók bárkire rátámadnak, illetve a homok hemzseg a húsevő Krayt sárkánygyíkoktól.<br>
+	Soha ne hagyd hosszabb ideig őrizetlenül az űrsiklódat! Ha még is így tennél, akkor reménykedj, hogy még egyben lesz mire visszaérsz, 
+	ugyanis a Jawa-k (magyarul: Dzsava) a legnagyobb guberáló és kereskedő faj a bolygón.</p>
+	<p>A Tatooine külön híres az itt minden évben a Huttok által megrendezésre kerülő Boonta esti fogathajtó futamról, a Boonta Eve Classic versenyről.</p>
+	<img id="podrace1" src="pics/podrace1.jpg" alt="Rajtrács">
+
+	<hr style="margin-top: 50px">
+	<div class="offtopic">
+		<h3>Egy kis érdekesség:</h3><p>A NASA Kepler űrtávcső 2011-ben felfedezett egy exobolygót, amely egy kettős csillagrendszer körül kering. 
+			A <a id="kepler16b" href="https://images.nasa.gov/details-ARC-20110919-AAV2473.html" target="_blank">Kepler 16-b</a> 
+			felfedezésében részt vett Fűrész Gábor magyar csillagász is. Azóta már több ilyen csillag-bolygó rendszert is találtak, 
+			ezek közül a legújabb a <a id="toi1338" href="https://index.hu/techtud/2020/01/11/nasa_exobolygo_tess_toi-1338_gyakornok_tinedzser_usa/" target="_blank">TOI-1338</a>, 
+			amelyet egy 17 éves gyakornok észlelt a NASA TESS szatelitjének az adatai között.</p>
+	</div>
+	<hr style="margin-bottom: 50px">
+
+	<h2>Boonta Eve Classic</h2>
+	<img id="arena" src="pics/arena.jpg" alt="Mos Espa Nagy Arena">
+	<p>A rajtrács Mos Espa külvárosi részén, a Mos Espa Nagy Arénában található. A nézők itt gyűlhetnek össze szurkolni a kedvenceiknek. 
+		Megtalálható még itt egy magas páholy is, ahonnan maga Jabba a Hutt jelzésére indulnak el a versenyzők, és három kört kell megtenniük.</p>
+	<p>Az Arénából kiérve a Csillagfény Egyenes következik, ami a sivatag egy könnyebb szakasza. Itt a legkönyebb jó pozícióba kerülni. 
+		Pár kanyarral később a versenyzők a Gomba Fennsíkban találhatják magukat. 
+		Ez egy sziklás térség, hatalmas kőalakzatokkal.<img id="podrace2" src="pics/podrace2.jpg" alt="Gomba Fennsík"><br>
+	Ezután egy szűk járaton, a Szurdokon keresztül egyenesen a Dűne Tengerbe vezet. Itt található meg Jabba palotája is.</p>
+	<p>Ezt követően az egyik legkockázatosabb szakasz, az Ősi Kanyon következik, aminek a végén egy szűk résen keresztül kell átpréselni a fogatokat a pilótáknak. 
+		Ez a kőrés annyira szűk, hogy a fogatok csak az oldalukra manőverezve férnek át.</p>
+	<img id="buckalako" src="pics/buckalako.jpg" alt="Buckalakó">
+	<p>Ezután egy barlangon keresztül kell továbbhaladni. Ebből kiérve, a Dűne Fordulat Kanyon jön, ahol a buckalakók előszeretettel lövöldöznek az idáig eljutott versenyzőkre.</p>
+	<p>Azoknak a versenyzőknek, akik túlélték a buckalakók lövéseit, a Bindy Bend sziklás akadályait kell kikerülniük, ami a Farokból, a Jett Kosarából és a Dugóhúzóból áll. 
+		Elhagyva a Dugóhúzót az Ördög Bütykén keresztül a versenyzők a Hutt Egyenesbe érnek, ami egyenesen az Arénába vezet vissza. 
+		Ez a pálya leggyorsabb egyenese, itt nem ritka a több mint 800 km/h-s sebesség.</p>
+	<img id="podrace3" src="pics/podrace3.jpg" alt="Hutt Egyenes">
+
+	<h2 id="fogatok">Fogatok és versenyzők</h2>
+	<div class="podracers">
+		<table>
+			<tr>
+				<th>Név</th>
+				<th>Fogat típus</th>
+				<th>Kinézet</th>
+			</tr>
+			<tr>
+				<td id="versenyzok">Aldar Beedo</td>
+				<td>MARK IV Flat-Twin Turbojet</td>
+				<td><img src="pics/AldarBeedo.png" alt="Aldar Beedo"></td>
+			</tr>
+			<tr>
+				<td>Anakin Skywalker</td>
+				<td>Radon-Ulzer 620C</td>
+				<td><img src="pics/AnakinSkywalker.png" alt="Anakin Skywalker"></td>
+			</tr>
+			<tr>
+				<td>Boles Roor</td>
+				<td>Quadrijet 4-Barrel 904E</td>
+				<td><img src="pics/BolesRoor.png" alt="Boles Roor"></td>
+			</tr>
+			<tr>
+				<td>Clegg Holdfast</td>
+				<td>Keizar-Volvec KV9T9-B Wasp</td>
+				<td><img src="pics/CleggHoldfast.png" alt="Clegg Holdfast"></td>
+			</tr>
+			<tr>
+				<td>Dud Bolt</td>
+				<td>Vulptereen 327</td>
+				<td><img src="pics/DudBolt.png" alt="Dud Bolt"></td>
+			</tr>
+			<tr>
+				<td>Ebe Endocott</td>
+				<td>JAK Racing J930 Dash-8</td>
+				<td><img src="pics/EbeEndocott.png" alt="Ebe Endocott"></td>
+			</tr>
+			<tr>
+				<td>Elan Mak</td>
+				<td>Kurtob KRT 410-C</td>
+				<td><img src="pics/ElanMak.png" alt="Elan Mak"></td>
+			</tr>
+			<tr>
+				<td>Mawhonic</td>
+				<td>Galactic Power Engineering GPE-3130</td>
+				<td><img src="pics/Mawhonic.png" alt="Mawhonic"></td>
+			</tr>
+			<tr>
+				<td>Neva Kee</td>
+				<td>Farwan & Glott FG 8T8 Twin-Block 2 Special</td>
+				<td><img src="pics/NevaKee.png" alt="Neva Kee"></td>
+			</tr>
+			<tr>
+				<td>Ody Mandrell</td>
+				<td>Exelbrok XL 5115</td>
+				<td><img src="pics/OdyMandrell.png" alt="Ody Mandrell"></td>
+			</tr>
+			<tr>
+				<td>Sebulba</td>
+				<td>Plug-F Mammoth</td>
+				<td><img src="pics/Sebulba.png" alt="Sebulba"></td>
+			</tr>
+			<tr>
+				<td>Teemto Pagalies</td>
+				<td>IPG-X1131 Longtail</td>
+				<td><img src="pics/TeemtoPagalies.png" alt="Teemto Pagalies"></td>
+			</tr>
+			<tr>
+				<td>Wan Sandage</td>
+				<td>Elsinore-Cordova TurboDyne 99-U</td>
+				<td><img src="pics/WanSandage.png" alt="Wan Sandage"></td>
+			</tr>
+		</table>
+	</div>
+<!--<h2 id="galeria">Galéria</h2>
+	<div class="gallery">
+		
+	</div>-->
+	<h2 id="kapcsolat">Kapcsolat</h2>
+	<div class="urlap">
+	<p>Ha tetszett a honlap, kérlek írj Nekünk!</p>
+	<form action="" onsubmit="return validateForm();">
+		<fieldset>
+			<label for="vezeteknev">Vezetéknév:</label>
+			<input id="vezeteknev" type="text" name="vezeteknev" ><span id="vezeteknevValid" name="hiba"></span><br>
+
+			<label for="keresztnev">Keresztnév:</label>
+			<input id="keresztnev" type="text" name="keresztnev" ><span id="keresztnevValid" name="hiba"></span><br>
+
+			<label for="gender">Nem:</label>
+			<div id="genderSelect">
+				<div id="gender-p">Férfi</div><input id="gender" type="radio" name="gender" value="Férfi" required>
+				<div id="gender-p">Nő</div><input id="gender" type="radio" name="gender" value="Nő" style="margin-right: auto;" required><span id="genderValid" name="hiba"></span><br>
+			</div><br>
+
+			<label for="szuletes">Születési idő:</label>
+			<input id="szuletes" type="date" name="szuletes"><span id="szuletesValid" name="hiba"></span><br>
+
+			<label for="orszag">Ország:</label>
+			<select id="orszag" name="orszag">
+				<option value="magyarorszag">Magyarország</option>
+				<option value="ausztria">Ausztria</option>
+				<option value="horvatorszag">Horvátország</option>
+				<option value="franciaorszag">Franciaország</option>
+				<option value="lengyelorszag">Lengyelország</option>
+				<option value="nemetorszag">Németország</option>
+				<option value="olaszorszag">Olaszország</option>
+				<option value="svajc">Svájc</option>
+				<option value="szlovakia">Szlovákia</option>
+			</select><span id="orszagValid" name="hiba"></span><br>
+
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email"><span id="emailValid" name="hiba"></span><br>
+
+			<label for="text">Üzenet:</label>
+			<textarea id="text" name="uzenet" placeholder="Ide írd az üzeneted.."></textarea><span id="textValid" name="hiba"></span>
+		</fieldset>
+		<input type="submit" id="btn" value="">
+	</form>
+	</div>
+	<p>A fenti "Küldés" (Send) gomb az ún. Aurebesh nyelven íródott. Ez egy a galaktikus közös nyelv jelölésére létrejött írásrendszer.</p>
+	<p>Mássalhangzókból, magánhangzókból, digrammákból és egyéb írásjelekből áll össze. Az egyes betűket szóköz választja el egymástól. 
+		Legtöbbször balról jobbra, illetve fentről lefele kell olvasni őket. Bár az írásjelek ugyanolyan méretben követik egymást, alkalmanként ki lehet emelni a főbb betűket 
+		megfordítással.</p><br>
+	<h3>Angol-Aurebesh fordító:</h3>
+	<div class="frame">
+		<iframe id="iframe" src="https://lingojam.com/AurebeshTranslator" name="aurebesh" title="Aurebesh fordító"></iframe>
+	</div>
+	<div id="toTop"><button id="topButton" onclick="toTheTop()"></button></div>
+</div>
+<footer>
+	Készítette: Veres Szabolcs, NY4KT5
+</footer>
+</body>
+</html>

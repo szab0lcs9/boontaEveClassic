@@ -1,0 +1,334 @@
+ body, html{
+ 	background-color: #6d94ac;
+	font-family: ms gothic;
+	font-size: 18px;
+ 	color: #552d09;
+	text-align: center;
+ }
+ .navigation::after,
+ .content::after,
+ .urlap fieldset label,
+ .frame::after,
+ .urlap fieldset input::after{
+  content: "";
+  clear: both;
+  display: table;
+ }
+ .navigation{
+ 	position: sticky;
+ 	background: rgba(154, 174, 183,.9);
+ 	top: 0;
+	margin: 10px;
+	padding-left: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,.8);
+ }
+ .content{
+ 	background: url('../pics/background.jpg') top center no-repeat fixed;
+ 	width: 1000px;
+	margin: auto;
+	box-shadow: 0 10px 10px 5px rgba(0,0,0,.7);
+ }
+ nav a{
+ 	display: block;
+ 	text-decoration: none;
+ 	padding: 15px 30px;
+	color: #573009;
+	text-align: left;
+ }
+ nav a:hover{
+ 	color: #f4e48d;
+ }
+ nav ul{
+ 	list-style: none;
+ 	font-size: 24px;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ nav>ul>li{
+ 	float: left;
+ }
+ nav .vanAlmenuje{
+ 	position: relative;
+ }
+ nav .vanAlmenuje:hover .almenu{
+ 	display: block;
+ }
+ nav .almenu{
+ 	position: absolute;
+ 	display: none;
+ }
+ nav .almenu a{
+ 	font-size: 17px;
+ 	font-weight: bold;
+ 	width: 110%;
+ 	background: #9aaeb7;
+ 	padding: 10px 30px;
+ 	text-align: left;
+ }
+ nav .almenu a:hover{
+ 	padding: 10px 20px 10px 40px;
+ }
+ .navigation div{
+	 float: right;
+ }
+ .navigation input[type=text] {
+	padding: 6px;
+	margin: 10px 5px 10px 30px;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: ms gothic;
+	color: #573009;
+	background: rgba(235, 235, 235, .6);
+	border: 2px solid #ccc;
+  }
+  .navigation #search{
+	width: 33px;
+	height: 33px;
+	float: right;
+	padding: 6px;
+	margin: 10px 30px 12px 0;
+	background: rgba(235, 235, 235, .6) url('../pics/search.png') center center no-repeat;
+	background-size: 50%;
+	font-size: 17px;
+	line-height: 22px;
+	border: 2px solid #ccc;
+	cursor: pointer;
+	display: block;
+  }
+  .navigation #search:hover{
+	background: #6d94ac url('../pics/search.png') center center no-repeat;
+	background-size: 50%;
+  }
+
+  #mute{
+	float: right;
+	right: 300px;
+	width: 34px;
+	height: 34px;
+	margin: 10px;
+	background: url('../pics/mute.png') center center no-repeat;
+	background-size: 90%;
+	border: none;
+	display: block;
+  }
+  .navigation #mute:hover{
+	background: url('../pics/mute.png') center center no-repeat;
+	background-size: 90%;
+	cursor: pointer;
+  }
+  #unMute{
+	float: right;
+	right: 300px;
+	width: 34px;
+	height: 34px;
+	margin: 10px;
+	background: url('../pics/unmute.png') center center no-repeat;
+	background-size: 90%;
+	border: none;
+	display: none;
+  }
+  .navigation #unMute:hover{
+	background: url('../pics/unmute.png') center center no-repeat;
+	background-size: 90%;
+	cursor: pointer;
+  }
+ h1{
+ 	padding: 38px;
+ 	line-height: 50px;
+ 	text-align: left;
+ 	color: #f4e48d;
+ }
+ h2{
+	margin: 56px 28px 28px 28px;
+	text-align: left;
+ 	color: #f4e48d;
+ }
+ h3{
+	text-align: left;
+	margin-left: 28px;
+	color: #f4e48d;
+ }
+ p{
+ 	line-height: 25px;
+ 	text-align: justify;
+ 	font-weight: bold;
+ 	margin-left: 28px;
+	margin-right: 28px;
+ }
+ hr{
+ 	width: 80%;
+ 	border-color:#552d09;
+ }
+ #arena{
+ 	width: 80%;
+ 	margin: 0 28px;
+ 	box-shadow: 0 0 20px rgba(0,0,0,.6);
+ }
+ #tatooine{
+	float: left;
+	margin: 0 28px;
+	width: 40%;
+	height: auto;
+	box-shadow: 0 0 20px rgba(0,0,0,.6);
+ }
+ #podrace1, #podrace3{
+	width: 80%;
+	height: auto;
+	margin: 10px 28px;
+	box-shadow: 0 0 20px rgba(0,0,0,.6);
+ }
+ #podrace2{
+ 	float: right;
+ 	width: 50%;
+ 	height: auto;
+ 	margin: 10px 0 0 28px;
+	box-shadow: 0 0 20px rgba(0,0,0,.6);
+ }
+ #buckalako{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin: 10px 28px;
+	box-shadow: 0 0 20px rgba(0,0,0,.6);
+ }
+ #kepler16b:visited,
+ #toi1338:visited{
+ 	color: #ae3d18;
+ }
+ .podracers{
+ 	margin: 28px;
+ }
+ table{
+ 	border-collapse: collapse;
+ }
+ .podracers img{
+ 	width: 40%;
+ }
+ .podracers img:hover{
+	 scale: 1.7;
+ }
+ .podracers td{
+ 	font-weight: bold;
+ 	height: 120px;
+ }
+ .podracers tr, td, th{
+ 	border: 1px solid;
+ }
+  .podracers th{
+ 	font-size: 23px;
+ 	font-weight: bolder;
+ }
+ .urlap fieldset{
+ 	margin: 28px;
+ 	padding: 20px 0;
+ 	line-height: 40px;
+ 	background: rgba(210,210,210,.6);
+ }
+ .urlap fieldset label{
+ 	float: left;
+ 	text-align: right;
+ 	width: 250px;
+ 	margin: 4px 20px;
+ 	padding: 0;
+ }
+ .urlap fieldset input{
+ 	width: 310px;
+ 	height: 22px;
+	margin: 10px 0;
+ 	padding: 2px 20px;
+	 font-family: ms gothic, serif;
+	float: left; 
+ }
+.urlap fieldset #gender{
+	margin: 10px auto;
+	width: 50px;
+	float: left;
+ }
+ .urlap fieldset div{
+ 	margin: 0 auto;
+ 	width: auto;
+ }
+ .urlap fieldset #genderSelect{
+	 width: auto;
+	 margin: 4px auto;
+	 float: left;
+ }
+ .urlap fieldset #gender-p{
+ 	width: auto;
+ 	margin-left: 60px;
+ 	font-weight: normal;
+ 	line-height: 40px;
+	float: left;
+ }
+.urlap fieldset select{
+	width: 352px;
+	height: 28px;
+	margin: 10px 0;
+	padding: 2px 20px;
+	font-family: ms gothic;
+	float: left;
+ }
+.urlap fieldset textarea{
+	width: 310px;
+	margin: 10px 0;
+	padding: 10px 20px;
+	height: 80px;
+	font-family: ms gothic;
+	font-size: 16px;
+	float: left;
+ } 
+ #btn{
+	 margin: 0 0 28px 0;
+	 width: 100px;
+	 height: 50px;
+	 background: url('../pics/sendbutton.png') center center no-repeat;
+	 background-color: rgba(244, 228, 141, .6);
+	 border: 1px solid;
+	 border-radius: 5px;
+	 cursor: pointer;
+ }
+ .frame{
+	width: 100%;
+	height: 300px;
+}
+ .frame iframe{
+	 margin: 28px;
+	 border: none;
+	 width: 944px;
+	 height: 300px;
+	 float: left;
+	 
+ }
+ footer{
+ 	margin: 10px;
+ 	padding: 20px;
+ }
+ span{
+	 color: #ea3900;
+	 height: 28px;
+	 font-weight: bold;
+ 	 margin: 4px 20px 20px 0;
+	 font-size: 14px;
+	 display: inline-block;
+ }
+ #genderValid{
+	 margin-left: 100px;
+ }
+ #topButton{
+	 position: fixed;
+	 width: 50px;
+	 height: 50px;
+	 right: 50px;
+	 bottom: 50px;
+	 padding: 10px;
+	 background: rgb(200, 209, 214) url(../pics/top.png) center center no-repeat;
+	 background-size: 70%;
+	 border: none;
+	 border-radius: 10px;
+	 box-shadow: 0 0 10px rgba(0,0,0,.7);
+	 cursor: pointer;
+ }
+ #topButton:hover{
+	background: #9bafb7 url(../pics/top.png) center center no-repeat;
+	background-size: 70%;
+  }
