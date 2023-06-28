@@ -1,1 +1,1 @@
-My first project in the University.
+My first project at the university
